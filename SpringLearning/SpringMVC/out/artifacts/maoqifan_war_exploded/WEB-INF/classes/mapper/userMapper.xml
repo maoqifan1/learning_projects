@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.userDao">
+    <select id="userLogin" parameterType="map" resultType="model.UserEntity">
+        SELECT * FROM `user`
+        <where>
+            <choose>
+                <when test="userid!=null and userid!=0">
+                    AND `userid`=#{userid}
+                </when>
+            </choose>
+            <if test="password!=null and password!=''">
+                AND `password`=#{password};
+            </if>
+        </where>
+    </select>
+
+    <insert id="userRegister" parameterType="model.UserEntity">
+        INSERT INTO `user`
+        (`userid`, `username`, `password`, `phone`, `email`)
+         VALUES(#{userid}, #{username}, #{password}, #{phone}, #{email});
+    </insert>
+</mapper>

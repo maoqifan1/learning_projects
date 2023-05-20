@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="model.RelationshipEntity">
+        <table name="relationship" schema="Project" />
+        <attributes>
+            <id name="relationshipName">
+                <column name="relationship_name"/>
+            </id>
+        </attributes>
+    </entity>
+</entity-mappings>

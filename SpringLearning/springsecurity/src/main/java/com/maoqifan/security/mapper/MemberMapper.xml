@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maoqifan.security.mapper.MemberMapper">
+    <select id="loadMemberById" parameterType="java.lang.String" resultType="com.maoqifan.security.pojo.Member">
+        SELECT *
+        FROM member_info
+        WHERE member_id = #{memberId};
+    </select>
+
+    <select id="getMemberRolesById" parameterType="java.lang.String" resultType="com.maoqifan.security.pojo.Role">
+        SELECT *
+        FROM role r,
+             member_role mr
+        WHERE r.id = mr.rid
+          AND mr.mid = #{memberId};
+    </select>
+</mapper>

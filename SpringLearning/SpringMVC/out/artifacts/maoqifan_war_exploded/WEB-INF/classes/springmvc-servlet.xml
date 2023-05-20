@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- use scanning mechanism to scan controller's classes,
+    all the controller's classes are in package Controller and it's son's package-->
+    <context:component-scan base-package="controller"></context:component-scan>
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+    <!-- annotation-driven is used to simplify the configuration of development
+         annotation DefaultAnnotationHandlerMapping and AnnotationMethodHandlerAdapter
+    -->
+
+    <!-- using resources to filter the static resources such as(css,js,html,images) which don't need dispatcherServlet.
+         It's necessary to use annotation-driven when using resources,
+         otherwise resources will prevent any controller from being called.
+    -->
+
+    <!-- it's permitted that all files under dir css are visible -->
+    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+    <!-- it's permitted that all files under dir js are visible -->
+    <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
+    <!-- it's permitted that all files under dir html are visible -->
+    <mvc:resources location="/html/" mapping="/html/**"></mvc:resources>
+    <!-- it's permitted that all files under dir bootstrap are visible -->
+    <mvc:resources location="/bootstrap-3.3.7/" mapping="/bootstrap-3.3.7/**"></mvc:resources>
+    <!-- it's permitted that all files under dir jquery are visible -->
+    <mvc:resources location="/jquery/" mapping="/jquery/**"></mvc:resources>
+
+    <!-- configure parser of view -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>

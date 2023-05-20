@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+  POSTGRES_DB: maoqifan
+  POSTGRES_USER: maoqifan
+  POSTGRES_PASSWORD: qq214031mm@

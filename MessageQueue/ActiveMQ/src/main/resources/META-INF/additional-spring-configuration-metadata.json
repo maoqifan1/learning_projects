@@ -1,0 +1,53 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.ds1.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.driver-class-name."
+    },
+    {
+      "name": "spring.datasource.ds1.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.url."
+    },
+    {
+      "name": "spring.datasource.ds1.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.username."
+    },
+    {
+      "name": "spring.datasource.ds1.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.password."
+    },
+    {
+      "name": "spring.datasource.ds1.type",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.type."
+    },
+    {
+      "name": "spring.datasource.ds2.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.driver-class-name."
+    },
+    {
+      "name": "spring.datasource.ds2.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.url."
+    },
+    {
+      "name": "spring.datasource.ds2.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.username."
+    },
+    {
+      "name": "spring.datasource.ds2.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.password."
+    },
+    {
+      "name": "spring.datasource.ds2.type",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.ds1.type."
+    }
+  ] }

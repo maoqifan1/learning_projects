@@ -1,0 +1,10 @@
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: localhost # 指定eureka主机
+  client:
+    register-with-eureka: false # 自己是服务中心
+    fetch-registry: false # 是否能够获取eureka注册信息
+    service-url: # 暴露自己的服务中心地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka

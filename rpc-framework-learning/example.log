@@ -1,0 +1,325 @@
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 17
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5622fdf
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - maxDirectMemory: 4294967296 bytes (maybe)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w7/j0f_dk3j741g43tr25vs2n580000gn/T (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: MacOS
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 34202 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:f9:d3:ff:fe:2e:7b:d6 (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a] REGISTERED
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a] BIND: 0.0.0.0/0.0.0.0:8889
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] ACTIVE
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 17
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5622fdf
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - maxDirectMemory: 4294967296 bytes (maybe)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w7/j0f_dk3j741g43tr25vs2n580000gn/T (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: MacOS
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 34238 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:f9:d3:ff:fe:2e:7b:d6 (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x577caa8e, L:/127.0.0.1:8889 - R:/127.0.0.1:61547]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x577caa8e, L:/127.0.0.1:8889 - R:/127.0.0.1:61547]'
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x0552b9a3, L:/127.0.0.1:8889 - R:/127.0.0.1:61548]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x0552b9a3, L:/127.0.0.1:8889 - R:/127.0.0.1:61548]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x57b5aa4d, L:/127.0.0.1:8889 - R:/127.0.0.1:61549]
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x57b5aa4d, L:/127.0.0.1:8889 - R:/127.0.0.1:61549]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x52445dba, L:/127.0.0.1:8889 - R:/127.0.0.1:61550]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x52445dba, L:/127.0.0.1:8889 - R:/127.0.0.1:61550]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-2-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c70831d
+DEBUG nioEventLoopGroup-3-4 io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG nioEventLoopGroup-3-4 io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG nioEventLoopGroup-3-4 io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG nioEventLoopGroup-3-4 io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG nioEventLoopGroup-3-4 io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+DEBUG nioEventLoopGroup-3-4 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-3-4 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-3-4 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4920ad9c
+INFO nioEventLoopGroup-3-2 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-4 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-1 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-3 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-4 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 1
+INFO nioEventLoopGroup-3-3 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 2
+INFO nioEventLoopGroup-3-2 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 3
+INFO nioEventLoopGroup-3-1 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 4
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 17
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5622fdf
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - maxDirectMemory: 4294967296 bytes (maybe)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w7/j0f_dk3j741g43tr25vs2n580000gn/T (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: MacOS
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 34542 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:f9:d3:ff:fe:2e:7b:d6 (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x264b0791, L:/127.0.0.1:8889 - R:/127.0.0.1:62743]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x264b0791, L:/127.0.0.1:8889 - R:/127.0.0.1:62743]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-2-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c70831d
+INFO nioEventLoopGroup-3-5 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-5 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 5
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+DEBUG main io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+DEBUG main io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+DEBUG main io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG main io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG main io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+DEBUG main io.netty.util.internal.PlatformDependent0 - Java version: 17
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG main io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+DEBUG main io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5622fdf
+DEBUG main io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+DEBUG main io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG main io.netty.util.internal.PlatformDependent - maxDirectMemory: 4294967296 bytes (maybe)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w7/j0f_dk3j741g43tr25vs2n580000gn/T (java.io.tmpdir)
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG main io.netty.util.internal.PlatformDependent - Platform: MacOS
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG main io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+DEBUG main io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+DEBUG main io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG main io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.processId: 34733 (auto-detected)
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+DEBUG main io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+DEBUG main io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+DEBUG main io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+DEBUG main io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:f9:d3:ff:fe:2e:7b:d6 (auto-detected)
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+DEBUG main io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG main io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG main io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x4c680c77, L:/127.0.0.1:8889 - R:/127.0.0.1:63471]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x4c680c77, L:/127.0.0.1:8889 - R:/127.0.0.1:63471]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+DEBUG main io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+DEBUG nioEventLoopGroup-2-1 io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+DEBUG nioEventLoopGroup-2-1 io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@40c79e59
+INFO nioEventLoopGroup-3-6 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-6 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 6
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-1 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x133d6d71, L:/127.0.0.1:8889 - R:/127.0.0.1:63472]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x133d6d71, L:/127.0.0.1:8889 - R:/127.0.0.1:63472]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-3-7 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-7 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 7
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-2 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x047f3ea9, L:/127.0.0.1:8889 - R:/127.0.0.1:63473]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x047f3ea9, L:/127.0.0.1:8889 - R:/127.0.0.1:63473]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-3-8 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-8 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 8
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-3 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)
+INFO main com.maoqifan.rpclearning.netty.NettyClient - client connect --> 127.0.0.1:8889
+INFO main com.maoqifan.rpclearning.netty.NettyClient - send message
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ: [id: 0x6c5810e5, L:/127.0.0.1:8889 - R:/127.0.0.1:63474]
+WARN nioEventLoopGroup-2-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_BACKLOG' for channel '[id: 0x6c5810e5, L:/127.0.0.1:8889 - R:/127.0.0.1:63474]'
+INFO nioEventLoopGroup-2-1 io.netty.handler.logging.LoggingHandler - [id: 0x9f66a23a, L:/[0:0:0:0:0:0:0:0]:8889] READ COMPLETE
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyClient - client send message: RpcRequest(interfaceName=interface, methodName=hello)
+INFO nioEventLoopGroup-3-9 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-3-9 com.maoqifan.rpclearning.netty.NettyServerHandler - server receive msg: RpcRequest(interfaceName=interface, methodName=hello)times: 9
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyKryoDecoder - successful decode ByteBuf to Object
+INFO nioEventLoopGroup-2-4 com.maoqifan.rpclearning.netty.NettyClientHandler - client receive  msgRpcResponse(message=message from server)

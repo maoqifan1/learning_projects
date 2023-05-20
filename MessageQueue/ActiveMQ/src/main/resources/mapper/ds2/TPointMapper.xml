@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maoqifan.mq.mapper.ds2.TPointMapper">
+    <insert id="insert" parameterType="com.maoqifan.mq.pojo.TPoint">
+        insert t_point(id, user_id, amount)
+        values (#{id}, #{userId}, #{amount})
+    </insert>
+</mapper>

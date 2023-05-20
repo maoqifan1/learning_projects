@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <style>
+        .page-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            flex-flow: row wrap;
+            background: ghostwhite;
+            background-attachment: fixed;
+
+        }
+
+        .page-item {
+            height: 30%;
+            width: 30%;
+            background: black;
+            animation-name: first;
+            animation-duration: 2.5s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-play-state: running;
+            transition: width .5s,height .5s,transform .2s;
+        }
+
+        .page-item:hover{
+            transform: scale(1.2,1.2) translate(.5rem,0.5rem);
+        }
+
+        @keyframes first {
+            0% {
+                background: grey;
+            }
+
+            25% {
+                background: #ccc;
+            }
+
+            50% {
+                background: #ddd;
+            }
+
+            100% {
+                background:honeydew;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="page-item"></div>
+    </div>
+</body>
+
+</html>

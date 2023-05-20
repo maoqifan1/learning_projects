@@ -1,0 +1,22 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: apigw # 当前应用名
+  cloud:
+    gateway:
+      routes:
+        - id: consumer
+          uri: lb://APPLICATION-CONSUMER
+          predicates:
+            - Path=/consumer/**
+#          filters:
+#            - StripPrefix=1
+eureka:
+  instance:
+    instance-id: gateway-application
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+    register-with-eureka: true
+    fetch-registry: true

@@ -1,0 +1,26 @@
+server:
+  port: 8090
+
+spring:
+  #  datasource
+  datasource:
+    url: jdbc:mysql://localhost:3306/amq_db1?serverTimezone=GMT&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: qq214031mm@
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  # redis
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: qq214031mm@
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+logging:
+  config:
+    src/main/resources/log4j2.xml

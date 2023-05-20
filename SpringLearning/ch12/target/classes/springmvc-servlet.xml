@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="service"></context:component-scan>
+    <context:component-scan base-package="controller"></context:component-scan>
+
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+    <mvc:resources  location="/bootstrap-3.3.7/" mapping="/boostrap-3.3.7/**"></mvc:resources>
+    <mvc:resources  location="/jquery/" mapping="/jquery/**"></mvc:resources>
+    <mvc:resources  location="/icheck" mapping="/icheck/**"></mvc:resources>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+        <property name="prefix" value="/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- configure interceptor -->
+    <mvc:interceptors>
+        <!-- configure a global interceptor to intercept all requests -->
+        <bean class="interceptor.TestInterceptor"/>
+    </mvc:interceptors>
+</beans>

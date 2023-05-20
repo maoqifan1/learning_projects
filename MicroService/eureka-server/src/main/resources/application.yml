@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: eureka-server
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8761
+
+# Eureka配置
+eureka:
+  instance:
+    # Eureka服务端的实例名字
+    hostname: localhost
+
+  client:
+    # 表示是否向 Eureka 注册中心注册自己 (这个模块本身是服务器,所以不需要)
+    register-with-eureka: false
+    # fetch-registry 是否拉取其他的服务；如果为 false，则表示自己为注册中心或服务提供者；服务消费者的话为 true
+    fetch-registry: false
+    # Eureka监控页面~
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

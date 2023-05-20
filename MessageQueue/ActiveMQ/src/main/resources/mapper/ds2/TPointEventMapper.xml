@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maoqifan.mq.mapper.ds2.TPointEventMapper">
+    <insert id="insert" parameterType="com.maoqifan.mq.pojo.TEvent">
+        insert into amq_db2.t_event(type, process, content, create_time)
+        values (#{type}, #{process}, #{content}, NOW());
+    </insert>
+    <update id="updateProcess">
+        UPDATE amq_db2.t_event
+        SET process=#{process}
+        where id = #{id};
+    </update>
+    <select id="getByProcess" resultType="com.maoqifan.mq.pojo.TEvent">
+        SELECT *
+        FROM amq_db2.t_event
+        WHERE process = #{process};
+    </select>
+</mapper>

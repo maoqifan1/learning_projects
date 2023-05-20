@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="model.UserEntity">
+        <table name="user" schema="Project" />
+        <attributes>
+            <id name="userid">
+                <column name="userid"/>
+            </id>
+            <basic name="username">
+                <column name="username"/>
+            </basic>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="sex">
+                <column name="sex"/>
+            </basic>
+            <basic name="phone">
+                <column name="phone"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
